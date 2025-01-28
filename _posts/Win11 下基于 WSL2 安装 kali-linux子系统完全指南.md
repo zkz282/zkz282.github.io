@@ -1,12 +1,12 @@
 ---
 title: "Win11 下基于 WSL2 安装 kali-linux子系统完全指南"
-date: 2025-01-28 10：20
+date: 2025-01-28 10：20 +0800
 categories: [kali, Build]
 tags: [渗透]
 ---
 ### 引言
 这篇文章完全出于装 13 的目的，因为我也不会渗透测试，只会到处找脚本，俗称 “脚本小子” 但是有工具了，就觉得自己很邢了~ 其次有一点先说一下，WSL2 的运行内存较高，空闲状态下约 800M 左右，电脑内存没有 16G 慎装，最后放一张安装完成的效果图，如下 👇 原生体验，和 Win系统共存，kali 系统就只启动一个菜单栏。
-![[Pasted image 20250123235842.png]]
+![Pasted image 20250123235842.png](/assets/media/pictures/algorithm/Pasted image 20250123235842.png)
 这种原生的体验如德芙丝滑
 	版本 Windows 11家庭版（要是专业版或者企业版更好）
 ### 1、WSL 介绍
@@ -38,7 +38,7 @@ tags: [渗透]
 
 程序和功能这几项全部打开（hyper-V 开启的目的是为了桥接网络，因为linux子系统默认使用的本机下的虚拟子网，与宿主机并不在同一个局域网内，如果没有这个需求可以不用开）（hyper-v如果没有这一项别着急，第八点会说）
 
-[!![[Pasted image 20250123235658.png]]
+![Pasted image 20250123235658.png](/assets/media/pictures/algorithm/Pasted image 20250123235658.png)
 效果演示
 
 ---
